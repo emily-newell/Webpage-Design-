@@ -1,0 +1,172 @@
+.cotton {
+	height: 25px;
+	width: 30px;
+}
+
+a:link {
+	text-decoration: none;
+	color:white;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color:#F0FFFF;
+}
+
+a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+
+
+
+
+body {
+	margin:0;
+	margin-bottom:1000px;
+	background-color: rgb(240,255,240);
+
+}
+
+
+.container {
+	
+	background: url('leaf.jpg');
+	background-size: cover;
+
+}
+
+.header {
+	/*background: url('leaf.jpg');
+	background-size: 100px;*/
+	display: flex;
+
+
+}
+
+
+.name {
+	margin-left:10px;
+	flex:2;
+	color: white;
+
+
+}
+
+.menu {
+	font-size: 25px;
+	margin-top: 20px;
+	align-items: flex-end;
+	margin-right: 20px;
+
+
+}
+
+
+.title {
+	text-align: center;
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 10px;
+
+}
+
+.big {
+	font-size: 20px;
+	padding-left:5px;
+	padding-right: 5px;
+	border-radius: 4px;
+	line-height: 20px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	background-color: rgba(240,255,240,.8);
+	text-align: center;
+
+		}
+
+.title-2{
+	text-align: center;
+	
+	
+}
+
+
+.small {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 4px;
+	line-height: 5px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	background-color: rgba(240,255,240,.8);
+	text-align: center;
+
+}
+
+.description {
+	display: inline-block;
+	margin-left:100px;
+	margin-right:100px;
+	position: absolute;
+	margin-top: 5px;
+	background-color:rgb(240,255,240);
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:	#193300;
+	padding-left:50px;
+	padding-right: 50px;
+	font-size: 19px
+	}
+
+.examples {
+	display: inline;
+	padding-top:70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: absolute;
+	color:black;
+	text-align: center;
+	font-size: 40px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+
+}
+
+
+/*maybe doing puting each img in its own div then
+making pictures display flex will make the imgs side by side*/
+.pictures {
+
+	padding-top: 50px;
+	margin-left: none;
+	margin-right: none;
+	margin-bottom:50px;
+}
+
+/*.blue {
+	flex:1;
+
+}*/
+
+
+
+form {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding-left: 170px;
+	padding-top: 30px;
+}
+
+
+
+
+

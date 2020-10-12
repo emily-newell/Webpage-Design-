@@ -1,0 +1,73 @@
+body {
+background-color: rgb(240,255,240);
+}
+
+.cotton {
+	height: 25px;
+	width: 30px;
+}
+
+a:link {
+	text-decoration: none;
+	color:white;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+.header {
+	display: inline-block;
+	border:solid;
+	/*background: url('leaf.jpg');
+	background-size: 100px;*/
+width: 100%
+
+
+}
+
+
+.name {
+	display: inline;
+	float: left;
+	background-color: pink;
+	color: rgb(34,139,34); 
+
+	
+	
+	
+
+
+
+
+
+}
+
+.menu {
+	position:;
+	display: inline;
+	float:right;
+	border:solid;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+
+
+}
+
+.discription {
+	width: 100%;
+	border:solid;
+	display: inline-block;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
